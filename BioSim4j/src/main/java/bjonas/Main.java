@@ -5,6 +5,7 @@ import bjonas.biosim4j.simulator.Sensor;
 
 public class Main {
     public static void main(String[] args) {
+        Config defaults = new Config();
 
         simulator(args);
         System.out.println("Hello world!");
