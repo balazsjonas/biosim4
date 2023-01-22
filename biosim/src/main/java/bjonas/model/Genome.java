@@ -7,4 +7,6 @@ import java.util.List;
 @Data
 public class Genome {
     private List<Gene> genes;
+
+
 }

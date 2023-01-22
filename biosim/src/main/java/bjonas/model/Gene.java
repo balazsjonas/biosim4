@@ -8,9 +8,9 @@ public class Gene {
     private static final double f2 = 64.0;
 
     private NeuronType neuronType;
-    private long sourceNum;
+    private int sourceNum;
     private SinkType sinkType;
-    private long sinkNum;
+    private int sinkNum;
     private long weight;
 
     public double weightAsFloat() {
